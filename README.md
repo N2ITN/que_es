@@ -1,5 +1,5 @@
 # que_es
-Hilariously simple, yet convenient helper tool for Python object inspection.
+Hilariously simple little helper tool for Python object inspection.
 
 Gets and prints object attributes, methods, docstring, and type with one command. Easy to read format.
 
