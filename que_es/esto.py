@@ -2,30 +2,30 @@
 """ Simple as it looks, performs basic object inspection """
 def esto(ob):
 
-    print('~~~~')
+    print('____')
     print('VARS')
-    print('~~~~')
+    print('___')
     try: 
         print(vars(ob))
     except TypeError:
         print('Object has no __dict__ attributes')
     print(' ')
 
-    print('~~~')
+    print('___')
     print('DIR')
-    print('~~~')
+    print('___')
     print(dir(ob))
     print(' ')
 
-    print('~~~~~~~~~')
+    print('_________')
     print('DOCSTRING')
-    print('~~~~~~~~~')
+    print('_________')
     print(ob.__doc__)
     print(' ')
 
-    print('~~~~') 
+    print('____') 
     print('TYPE')
-    print('~~~~') 
+    print('____') 
     print(type(ob))
     print(' ')
 
