@@ -1,10 +1,11 @@
 # que_es
-As participants in the vast and wonderful python ecosystem, its fairly common to see a new object and wonder "What Is This??".
+When navigating the vast and wonderful Python ecosystem, it seems there is always a new object for which to ask "What Is This?!".
 
-To find out, you could read the docs, or API description, or use builtins to inspect the object with print statements, all of which are time consuming and mildly annoying (who wants to type "print(var(obj)), print(dirs(ojb)), print(object.__doc__") every time they have a question.
+`que_es.esto()`, spanish for what is this, helps to quickly explain the object so you can continue forward.
 
-I created this hilariously simple helper tool for Python object inspection for my own use.
-With one command, it prints object attributes, methods, docstring, and type with one command, all in an easy to read format.
+You could read the docs, the API description, or use builtings with print statements, but why pull up a web browser when there are builtings, but who wants to type `print(var(object)), print(dirs(object)), print(object.__doc__")` every time they have a question.
+
+With one command, this module prints object attributes, methods, docstring, and type, in an easily readable format.
 
 Installation:
 `pip install que_es`
