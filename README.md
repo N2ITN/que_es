@@ -12,6 +12,7 @@ Usage:
 >>> import que_es
 >>> que_es.esto([1,2,3])
 >>> que_es.esto([1,2,3])
+'''
 ~~~~
 VARS
 ~~~~
@@ -33,7 +34,7 @@ TYPE
 ~~~~
 <type 'list'>
  
->>> 
+>>> '''
 ````
 
 
