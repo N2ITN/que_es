@@ -7,7 +7,7 @@ Gets and prints object attributes, methods, docstring, and type with one command
 
 Usage:
 
-``python
+````python
 
 >>> import que_es
 >>> que_es.esto([1,2,3])
@@ -34,6 +34,6 @@ TYPE
 <type 'list'>
  
 >>> 
-``
+````
 
 
