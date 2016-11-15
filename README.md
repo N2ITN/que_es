@@ -7,12 +7,14 @@ Gets and prints object attributes, methods, docstring, and type with one command
 
 Usage:
 
-````python
+```python
 
 >>> import que_es
 >>> que_es.esto([1,2,3])
 >>> que_es.esto([1,2,3])
-'''
+```
+
+```
 ~~~~
 VARS
 ~~~~
@@ -33,8 +35,4 @@ list(iterable) -> new list initialized from iterable's items
 TYPE
 ~~~~
 <type 'list'>
- 
->>> '''
-````
-
-
+```
