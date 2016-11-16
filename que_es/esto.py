@@ -8,7 +8,7 @@ def esto(ob):
     try: 
         print(vars(ob))
     except TypeError:
-        print('Object has no --dict-- attributes')
+        print('Object has no __dict__ attributes')
     print(' ')
 
     print('---')
