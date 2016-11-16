@@ -3,14 +3,14 @@ When navigating the vast and wonderful Python ecosystem, the question of "What I
 
 `que_es.esto()`, spanish for what is this, quickly prints an object's class so you can continue forward.
 
-To get to know a new class, you could read the docs or API description, or use builtins with print statements - but why pull up a web browser when there are builtins - and yet who wants to type 
+To get to know a new class, you could read the docs or API description, or use builtins with print statements - but why pull up a web browser when there are builtins - and yet who wants to type all this: 
 ```python
->>> print type(object)
+>>> print(type(object))
 >>> print(vars(object))
 >>> print(dir(object))
 >>> print(object.__doc__)
 ``` 
-every time they have a question. (No, its not that big of a hardship, but it does waste time and mental resources when we could use one statement and continue coding.)
+every time they have a question. While this is not that big of a hardship, it does waste time and mental energy that could be used for something more useful.
 
 'que_es.esto()' will print an object's attributes, methods, docstring, and type, in human readable format.
 
