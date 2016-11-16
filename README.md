@@ -12,7 +12,7 @@ To get to know a new class, you could read the docs or API description, or use b
 ``` 
 every time they have a question. While this is not an epic hardship, why waste time and mental energy that could be used for something better.
 
-'que_es.esto()' will print an object's attributes, methods, docstring, and type, in human readable format.
+`que_es.esto()` prints an object's attributes, methods, docstring, and type, in human readable format.
 
 Installation:
 `pip install que_es`
