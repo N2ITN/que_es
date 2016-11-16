@@ -21,7 +21,7 @@ Usage:
 ----
 VARS
 ----
-Object has no --dict-- attributes
+Object has no __dict__ attributes
  
 ---
 DIR
