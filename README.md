@@ -5,12 +5,12 @@ When navigating the vast and wonderful Python ecosystem, the question of "What I
 
 To get to know a new class, you could read the docs or API description, or use builtins with print statements - but why pull up a web browser when there are builtins - and yet who wants to type all this: 
 ```python
->>> print(type(object))
->>> print(vars(object))
->>> print(dir(object))
->>> print(object.__doc__)
+>>> print(type(unfamiliarObject))
+>>> print(vars(unfamiliarObject))
+>>> print(dir(unfamiliarObject))
+>>> print(unfamiliarObject.__doc__)
 ``` 
-every time they have a question. While this is not that big of a hardship, it does waste time and mental energy that could be used for something more useful.
+every time they have a question. While this is not an epic hardship, why waste time and mental energy that could be used for something better.
 
 'que_es.esto()' will print an object's attributes, methods, docstring, and type, in human readable format.
 
