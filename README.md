@@ -3,9 +3,9 @@ When navigating the vast and wonderful Python ecosystem, it seems there is alway
 
 `que_es.esto()`, spanish for what is this, helps to quickly explain the object's class so you can continue forward.
 
-To get to know a new class, you could readzthe docs, the API description, or use builtins with print statements, but why pull up a web browser when there are builtins, yet who wants to type `print(var(object)), print(dirs(object)), print(object.__doc__")` every time they have a question.
+To get to know a new class, you could read the docs or API description, or use builtins with print statements - but why pull up a web browser when there are builtins - and yet who wants to type `print(var(object)), print(dirs(object)), print(object.__doc__")` every time they have a question.
 
-With one command, this module prints object's attributes, methods, docstring, and type, in an easily readable format.
+'que_es.esto()' will print an object's attributes, methods, docstring, and type, in human readable format.
 
 Installation:
 `pip install que_es`
