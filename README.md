@@ -1,9 +1,9 @@
 # que_es
-When navigating the vast and wonderful Python ecosystem, it seems there is always a new object for which to ask "What Is This?!".
+When navigating the vast and wonderful Python ecosystem, the question of "What Is This?!" tends to come up frequently. As a believer in all things Pythonic, including so called syntactical sugar, I developed this simple helper module to speed up the process of learning new classes.
 
-`que_es.esto()`, spanish for what is this, helps to quickly explain the object's class so you can continue forward.
+`que_es.esto()`, spanish for what is this, quickly prints an object's class so you can continue forward.
 
-To get to know a new class, you could read the docs or API description, or use builtins with print statements - but why pull up a web browser when there are builtins - and yet who wants to type `print(var(object)), print(dirs(object)), print(object.__doc__")` every time they have a question.
+To get to know a new class, you could read the docs or API description, or use builtins with print statements - but why pull up a web browser when there are builtins - and yet who wants to type `print(var(object)), print(dirs(object)), print(object.__doc__")` every time they have a question. (No, its not that big of a hardship, but it does waste time and mental resources when we could use one statement and continue coding.)
 
 'que_es.esto()' will print an object's attributes, methods, docstring, and type, in human readable format.
 
