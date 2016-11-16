@@ -1,4 +1,4 @@
-# que_es
+# que_es: simple object inspection
 When navigating the vast and wonderful Python ecosystem, the question of "What Is This?!" tends to come up frequently. As a believer in all things Pythonic, including so called syntactical sugar, I developed this simple helper module to speed up the process of learning new classes.
 
 `que_es.esto()`, spanish for what is this, quickly prints an object's class so you can continue forward.
@@ -14,10 +14,10 @@ every time they have a question. While this is not an epic hardship, why waste t
 
 `que_es.esto()` prints an object's attributes, methods, docstring, and type, in human readable format.
 
-Installation:
+### Installation:
 `pip install que_es`
 
-Usage:
+### Usage:
 
 ```python
 
